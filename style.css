@@ -1,0 +1,53 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul li {
+    background-color: #bdbdbd;
+    color: black;
+    margin: 8px 16px;
+    padding: 4px 8px;
+}
+
+ol {
+    font-weight: 600;
+}
+
+ol li p {
+    background-color: #bdbdbd;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-weight: 200;
+}
+
+.home {
+    display: block;
+    text-align: center;
+    margin-block: 20px;
+    color: black;
+}
+
+.home::after {
+    content: " ↩";
+}
+
+li a {
+    color: black;
+}
+
+img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+h3::after {
+    display: block;
+    content: "";
+    border-top: 1px solid black;
+    margin: 4px 0 10px 0;
+}
